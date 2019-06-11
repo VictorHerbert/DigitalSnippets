@@ -2,4 +2,4 @@
 
 ## Further reading
 
-[Online CRC calculator] (https://asecuritysite.com/comms/crc_div)
+* [Online CRC calculator] (https://asecuritysite.com/comms/crc_div)
