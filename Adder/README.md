@@ -10,6 +10,10 @@ cout <= (a and b);
 ```
 ### FULL ADDER
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/VictorHerbert/VHDLSnippets/master/Images/Full_Adder.png" alt="Logo"/>
+</p>
+
 ```vhdl
 int_sig <= (a xor b);
 s <= (cin xor int_sig);
