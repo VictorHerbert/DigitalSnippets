@@ -2,7 +2,10 @@
 
 The basic blocks of all adder are the [Half adder](### HALF ADDER) and then Full Adder. Indeed, there are the only components needed to build the simplest architecture we can think about
 
-![Basic architecture of an adder](http://cdn.differencebetween.net/wp-content/uploads/2018/04/Difference-Between-Half-Adder-and-Full-Adder.jpg)
+
+<p align="center">
+  <img src="http://cdn.differencebetween.net/wp-content/uploads/2018/04/Difference-Between-Half-Adder-and-Full-Adder.jpg" alt="Logo"/>
+</p>
 
 ### HALF ADDER
 
