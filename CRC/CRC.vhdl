@@ -3,17 +3,17 @@ use IEEE.std_logic_1164.all;
 
 entity CRC is 
 	generic(
-			n	: integer := 8;
-			pol_size		: integer := 6;
-			crc_pol		: std_logic_vector(5 downto 0) := "101111"
-		);
-		port(
-			serial	: in std_logic;
-			word_out	: out std_logic_vector(pol_size-2 downto 0);		
-			clk 		: in std_logic;
-			reset		: in std_logic;
-			ready		: out std_logic
-		);
+		n	: integer := 8;
+		pol_size		: integer := 5;
+		crc_pol		: std_logic_vector(4 downto 0) := "10111"
+	);
+	port(
+		serial	: in std_logic;
+		word_out	: out std_logic_vector(pol_size-2 downto 0);		
+		clk 		: in std_logic;
+		reset		: in std_logic;
+		ready		: out std_logic
+	);
 end CRC;
 
 architecture arch of CRC is
