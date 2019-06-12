@@ -2,6 +2,8 @@
 
 Regarding knowledges about digital electronics, Latches and Flip Flops are pretty much the same component, what differs them is the fact that Flip flop only changes its outputs on the Clock falling (or rising), when the latch don't even has need for this input.
 
+Ideed, Flip Flop Edge sensitivy makes it the only eletronic component suitable for timing operations
+
 ## D Type
 
 Using Latch
