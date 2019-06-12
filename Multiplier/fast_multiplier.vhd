@@ -44,10 +44,10 @@ end generate;
 adders_out(0) <= and_res(0);
 couts(0) <= '0';
 
-loop3: for i in 0 to n-2 generate 
+Adders_topology: for i in 0 to n-2 generate 
 	adders_in(i) <= couts(i) & adders_out(i)(n-1 downto 1);
 	
-	somador:ripple_carry_adder
+	Adder:ripple_carry_adder
 		port map (
 			adders_in(i),
 			and_res(i+1),
