@@ -15,3 +15,8 @@ Reusable VHDL codes used in Digital Systems
   * Fast divider
 * State Machines
 
+
+## References
+
+* Multiplier
+  * [Paper](htttp://eee.guc.edu.eg/Courses/Electronics/ELCT706%20Microelectronics%20Lab/winter%202014/Multipliers.pdf)
