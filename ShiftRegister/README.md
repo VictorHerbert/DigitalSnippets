@@ -1,3 +1,0 @@
-# Shift Register
-
-## Further Reading

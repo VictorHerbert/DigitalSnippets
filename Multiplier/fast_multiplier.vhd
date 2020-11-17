@@ -5,7 +5,7 @@ use ieee.std_logic_1164.all;
 entity fast_multiplier is 
 	generic(n : integer := 8);
 	port(
-		a,b	: in std_logic_vector(n-1 downto 0);
+		a,b		: in std_logic_vector(n-1 downto 0);
 		s		: out std_logic_vector(n-1 downto 0)
 	);
 end fast_multiplier;
