@@ -1,4 +1,0 @@
-LDA 12
-LDB 40
-ADD
-OUTLC

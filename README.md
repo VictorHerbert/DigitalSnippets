@@ -1,6 +1,6 @@
 # VHDL Snippets
 
-Reusable VHDL codes used in Digital Systems
+Reusable IP cores
 
 ## Content
 * Adder and Subtractor Architectures
@@ -14,9 +14,3 @@ Reusable VHDL codes used in Digital Systems
   * Naive divider
   * Fast divider
 * State Machines
-
-
-## References
-
-* Multiplier
-  * [Paper](htttp://eee.guc.edu.eg/Courses/Electronics/ELCT706%20Microelectronics%20Lab/winter%202014/Multipliers.pdf)
