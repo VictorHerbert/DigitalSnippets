@@ -1,16 +1,17 @@
 # VHDL Snippets
 
-Reusable IP cores
+Reusable IP cores written in System Verilog. VHDL versions in archive
 
 ## Content
-* Adder and Subtractor Architectures
-  * Ripple Carry Adder
-  * Look Ahead Carry Adder
-  * Select Carry Adder
-* Multiplier Architecture
-  * Clock based multiplier
-  * Hardware multiplier
+* Adders
+  * Ripple Carry
+  * Look Ahead Carry
+  * Select Carry
+* Multipliers
 * Divider
-  * Naive divider
-  * Fast divider
-* State Machines
+
+## Structure
+
+* Parallel
+* Pipelined
+* Avalon Mapped Slave

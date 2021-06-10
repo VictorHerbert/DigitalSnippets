@@ -1,0 +1,2615 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:16:46 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:16:46 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:16:46 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# End time: 16:16:46 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 16:16:46 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# run -all
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:21:46 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:21:46 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:21:46 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error: ../testbench.vhd(27): (vcom-1136) Unknown identifier "up".
+# 
+# ** Error: ../testbench.vhd(41): near "wait": (vcom-1576) expecting ';'.
+# 
+# ** Error: ../testbench.vhd(45): VHDL Compiler exiting
+# End time: 16:21:46 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:22:01 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:22:01 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:22:01 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error: ../testbench.vhd(27): (vcom-1136) Unknown identifier "upto".
+# 
+# ** Error: ../testbench.vhd(27): near "89": syntax error
+# ** Error: ../testbench.vhd(30): (vcom-1136) Unknown identifier "i".
+# 
+# ** Error: ../testbench.vhd(30): Type error resolving infix expression "*" as type ieee.NUMERIC_STD.SIGNED.
+# ** Error: ../testbench.vhd(40): near "loop": (vcom-1576) expecting PROCESS.
+# 
+# End time: 16:22:01 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 5, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:22:04 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:22:04 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:22:04 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error: ../testbench.vhd(41): near "wait": (vcom-1576) expecting ';'.
+# 
+# ** Error: ../testbench.vhd(45): VHDL Compiler exiting
+# End time: 16:22:04 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:22:11 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:22:11 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:22:11 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error (suppressible): ../testbench.vhd(30): (vcom-1272) Length of expected is 16; length of actual is 32.
+# 
+# ** Error: ../testbench.vhd(45): VHDL Compiler exiting
+# End time: 16:22:12 on May 04,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:24:50 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:24:51 on May 04,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:24:51 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error (suppressible): ../testbench.vhd(30): (vcom-1272) Length of expected is 16; length of actual is 32.
+# 
+# ** Error: ../testbench.vhd(45): VHDL Compiler exiting
+# End time: 16:24:51 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:25:04 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:25:04 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:25:04 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error (suppressible): ../testbench.vhd(30): (vcom-1272) Length of expected is 16; length of actual is 32.
+# 
+# ** Error: ../testbench.vhd(45): VHDL Compiler exiting
+# End time: 16:25:04 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:25:37 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:25:37 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:25:37 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error: ../testbench.vhd(30): Type error resolving infix expression "*" as type ieee.NUMERIC_STD.SIGNED.
+# ** Error: ../testbench.vhd(45): VHDL Compiler exiting
+# End time: 16:25:37 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:25:54 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:25:54 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:25:54 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error: ../testbench.vhd(30): Illegal type conversion from std.STANDARD.INTEGER to ieee.std_logic_1164.STD_LOGIC_VECTOR (numeric to array).
+# ** Error: ../testbench.vhd(30): Type conversion (to ieee.std_logic_1164.STD_LOGIC_VECTOR) conflicts with expected type ieee.NUMERIC_STD.SIGNED.
+# ** Error: ../testbench.vhd(45): VHDL Compiler exiting
+# End time: 16:25:54 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:26:13 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:26:13 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:26:13 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error: ../testbench.vhd(30): Illegal type conversion from std.STANDARD.INTEGER to ieee.NUMERIC_STD.UNSIGNED (numeric to array).
+# ** Error: ../testbench.vhd(30): Type conversion (to ieee.std_logic_1164.STD_LOGIC_VECTOR) conflicts with expected type ieee.NUMERIC_STD.SIGNED.
+# ** Error: ../testbench.vhd(45): VHDL Compiler exiting
+# End time: 16:26:13 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 3, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:26:46 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:26:46 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:26:46 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error (suppressible): ../testbench.vhd(30): (vcom-1272) Length of expected is 16; length of actual is 32.
+# 
+# ** Error: ../testbench.vhd(45): VHDL Compiler exiting
+# End time: 16:26:46 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:28:28 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:28:28 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:28:28 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error: ../testbench.vhd(24): near "0100;": (vcom-1204) Bit string literal is not terminated with " character.
+# ** Error: ../testbench.vhd(24): String literal has a character ';' not in the enumeration type ieee.std_logic_1164.STD_ULOGIC.
+# ** Error: ../testbench.vhd(26): near "process": (vcom-1576) expecting ';'.
+# 
+# ** Error: ../testbench.vhd(31): near "0100;": (vcom-1204) Bit string literal is not terminated with " character.
+# ** Error: ../testbench.vhd(31): String literal has a character ';' not in the enumeration type ieee.std_logic_1164.STD_ULOGIC.
+# ** Error: ../testbench.vhd(33): near "reset": (vcom-1576) expecting ';'.
+# 
+# ** Error: ../testbench.vhd(35): Illegal concurrent statement.
+# ** Error: ../testbench.vhd(37): Illegal concurrent statement.
+# ** Error: ../testbench.vhd(39): Illegal concurrent statement.
+# ** Error: ../testbench.vhd(41): near "loop": (vcom-1576) expecting ';'.
+# 
+# End time: 16:28:28 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:28:41 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:28:41 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:28:41 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error: ../testbench.vhd(32): near "0100;": (vcom-1204) Bit string literal is not terminated with " character.
+# ** Error: ../testbench.vhd(32): String literal has a character ';' not in the enumeration type ieee.std_logic_1164.STD_ULOGIC.
+# ** Error: ../testbench.vhd(34): near "reset": (vcom-1576) expecting ';'.
+# 
+# ** Error: ../testbench.vhd(47): VHDL Compiler exiting
+# End time: 16:28:41 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:28:51 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:28:51 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:28:51 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# End time: 16:28:51 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:28:53 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# run -all
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:29:43 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:29:43 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:29:43 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# End time: 16:29:43 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:29:44 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+# run -all
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:30:00 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:30:00 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:30:00 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# End time: 16:30:00 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:30:01 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# run -all
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:30:15 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:30:15 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:30:15 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# End time: 16:30:15 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:30:16 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# run -all
+# wave zoom range 0ns 2000ns
+# 0 ns
+# 2 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:30:35 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:30:35 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:30:35 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# End time: 16:30:35 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:30:36 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:32:36 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:32:36 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:32:37 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# End time: 16:32:37 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:32:37 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:33:18 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:33:18 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:33:18 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# End time: 16:33:18 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:33:19 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:33:39 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:33:39 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:33:39 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# End time: 16:33:39 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:33:40 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:33:57 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:33:57 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:33:57 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# End time: 16:33:57 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:33:57 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:34:32 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:34:32 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:34:32 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# End time: 16:34:33 on May 04,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:34:33 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:35:22 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:35:22 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:35:23 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# ** Error: ../testbench.vhd(15): (vcom-1294) Declaration with designator "z" already exists in this region.
+# ** =====> Prior declaration of "z" is at ../testbench.vhd(10).
+# 
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error: ../testbench.vhd(46): VHDL Compiler exiting
+# End time: 16:35:23 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:35:33 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:35:34 on May 04,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:35:34 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# End time: 16:35:34 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:35:34 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:37:13 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:37:13 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:37:13 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error: ../testbench.vhd(30): (vcom-1136) Unknown identifier "i".
+# 
+# ** Error: ../testbench.vhd(45): VHDL Compiler exiting
+# End time: 16:37:13 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:37:21 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:37:21 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:37:21 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Error: ../testbench.vhd(30): Constant "j" is type std.STANDARD.INTEGER; expecting type ieee.NUMERIC_STD.SIGNED.
+# ** Error: ../testbench.vhd(45): VHDL Compiler exiting
+# End time: 16:37:21 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vcom failed.
+#     while executing
+# "vcom -2008 -work work {../testbench.vhd}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:37:37 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:37:37 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:37:37 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# End time: 16:37:37 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:37:38 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:53:09 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:53:10 on May 04,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:53:10 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# End time: 16:53:10 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:53:12 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:54:54 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:54:54 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:54:54 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Warning: ../testbench.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:54:55 on May 04,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:54:56 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+add wave -position end  sim:/testbench/xo
+add wave -position end  sim:/testbench/yo
+add wave -position end  sim:/testbench/yo
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:55:53 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:55:53 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:55:53 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Warning: ../testbench.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:55:53 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:55:54 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# add wave xo
+# add wave yo
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:58:18 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:58:18 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:58:18 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Warning: ../testbench.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:58:18 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:58:19 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# add wave xo
+# add wave yo
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:59:38 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 16:59:38 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 16:59:38 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Warning: ../testbench.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 16:59:38 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 16:59:39 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# add wave xo
+# add wave yo
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 17:02:32 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 17:02:32 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 17:02:32 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Warning: ../testbench.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 17:02:32 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 17:02:33 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix define fx -fixed -fraction 8 -precision 2 -base decimal -signed
+# fx
+# 
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave -radix fx z
+# 
+# add wave -radix fx xo
+# add wave -radix fx yo
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 17:04:00 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 17:04:00 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 17:04:00 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Warning: ../testbench.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 17:04:00 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 17:04:01 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix define fx -fixed -fraction 8 -precision 2 -base decimal -signed
+# fx
+# 
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave -radix fx z
+# 
+# add wave -radix fx xo
+# add wave -radix fx yo
+# 
+# run -all
+# wave zoom range 0ns 200000ns
+# 0 ns
+# 200 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 17:13:17 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 17:13:17 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 17:13:17 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Warning: ../testbench.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 17:13:18 on May 04,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 17:13:20 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# ** Warning: (vsim-8683) Uninitialized out port /testbench/c/zo(15 downto 0) has no driver.
+# 
+# This port will contribute value (16'hXXXX) to the signal network.
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix define fx -fixed -fraction 8 -precision 2 -base decimal -signed
+# fx
+# 
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave -radix fx z
+# 
+# add wave -radix fx xo
+# add wave -radix fx yo
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 17:13:46 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 17:13:46 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 17:13:46 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Warning: ../testbench.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 17:13:46 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 17:13:47 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix define fx -fixed -fraction 8 -precision 2 -base decimal -signed
+# fx
+# 
+# add wave clk
+# add wave reset
+# 
+# add wave x
+# add wave y
+# add wave z
+# 
+# add wave xo
+# add wave yo
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 17:59:09 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 17:59:09 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 17:59:10 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Warning: ../testbench.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 17:59:10 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 17:59:12 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix define fx -fixed -fraction 8 -precision 2 -base decimal -signed
+# fx
+# 
+# add wave clk
+# add wave reset
+# 
+# add wave -radix fx x
+# add wave -radix fx y
+# add wave -radix fx z
+# 
+# add wave -radix fx xo
+# add wave -radix fx yo
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# vcom -2008 -work work {../cordic.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 18:00:29 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../cordic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading package NUMERIC_STD
+# -- Compiling entity cordic
+# -- Compiling architecture arch of cordic
+# End time: 18:00:29 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -2008 -work work {../testbench.vhd}
+# Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 18:00:29 on May 04,2021
+# vcom -reportprogress 300 -2008 -work work ../testbench.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity testbench
+# -- Compiling architecture arch of testbench
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Loading entity cordic
+# ** Warning: ../testbench.vhd(30): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+# End time: 18:00:29 on May 04,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 18:00:30 on May 04,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.testbench(arch)
+# Loading work.cordic(arch)
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix define fx -fixed -fraction 8 -precision 2 -base decimal -signed
+# fx
+# 
+# add wave clk
+# add wave reset
+# 
+# add wave -radix fx x
+# add wave -radix fx y
+# add wave -radix fx z
+# 
+# add wave -radix fx -label "cos" xo
+# add wave -radix fx -label "sin" yo
+# 
+# run -all
+# wave zoom range 0ns 20000ns
+# 0 ns
+# 20 us
+# End time: 18:04:26 on May 04,2021, Elapsed time: 0:03:56
+# Errors: 0, Warnings: 0
