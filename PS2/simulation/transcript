@@ -1,0 +1,3268 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:14:15 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:14:15 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:14:15 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# End time: 07:14:16 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui 
+# Start time: 07:14:17 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# 
+# 
+# add wave clk
+# add wave data
+# 
+# run -all;
+# wave zoom range 0ps 150ps
+# 0 ps
+# 150 ps
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:15:57 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:15:57 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:15:57 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:16:02 on Jun 11,2021, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:16:05 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# 
+# 
+# add wave clk
+# add wave data
+# 
+# run -all;
+# wave zoom range 0ps 150ps
+# 0 ps
+# 150 ps
+# 
+# vcd file myvcd1.vcd
+# vcd add -r /*
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:16:41 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:16:41 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:16:41 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:16:42 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:16:43 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# 
+# 
+# add wave clk
+# add wave data
+# 
+# 
+# vcd file myvcd1.vcd
+# vcd add -r /*
+# 
+# run -all;
+# wave zoom range 0ps 150ps
+# 0 ps
+# 150 ps
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:26:45 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:26:45 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:26:45 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:26:46 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:26:48 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# 
+# 
+# add wave clk
+# add wave data
+# 
+# 
+# vcd file myvcd1.vcd
+# vcd add -r /*
+# 
+# run -all;
+# wave zoom range 0ps 150ps
+# 0 ps
+# 150 ps
+# 
+# vcd flush
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:29:09 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:29:09 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:29:09 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:29:09 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:29:12 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# 
+# 
+# add wave clk
+# add wave data
+# 
+# 
+# 
+# 
+# 
+# run -all;
+# wave zoom range 0ps 150ps
+# 0 ps
+# 150 ps
+# 
+# vcd file myvcd1.vcd
+# vcd add -r /*
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:29:34 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:29:34 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:29:34 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:29:34 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:29:35 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# 
+# 
+# add wave clk
+# add wave data
+# 
+# 
+# 
+# 
+# 
+# run -all;
+# wave zoom range 0ps 150ps
+# 0 ps
+# 150 ps
+# 
+# vcd file myvcd1.vcd
+# vcd add -r /*
+# vcd flush
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:30:10 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:30:10 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:30:10 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:30:10 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:30:11 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# 
+# 
+# add wave clk
+# add wave data
+# 
+# 
+# 
+# vcd file myvcd1.vcd
+# vcd add -r /*
+# 
+# run -all
+# vcd flush
+# 
+# wave zoom range 0ps 150ps
+# 0 ps
+# 150 ps
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:44:19 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:44:19 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:44:19 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: (vlog-13069) ../testbench.sv(4): near "'x": syntax error, unexpected UNSIZED_BIT, expecting ',' or '}'.
+# 
+# ** Error: ../testbench.sv(13): (vlog-2730) Undefined variable: 'i'.
+# 
+# ** Error: (vlog-13069) ../testbench.sv(14): near "#": syntax error, unexpected '#', expecting ';'.
+# 
+# End time: 07:44:20 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 12
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:44:29 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:44:29 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:44:29 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: ../testbench.sv(13): (vlog-2730) Undefined variable: 'i'.
+# 
+# ** Error: (vlog-13069) ../testbench.sv(14): near "#": syntax error, unexpected '#', expecting ';'.
+# 
+# End time: 07:44:29 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 12
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:44:55 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:44:55 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:44:55 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: (vlog-13069) ../testbench.sv(14): near "#": syntax error, unexpected '#', expecting ';'.
+# 
+# End time: 07:44:55 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 12
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:45:13 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:45:13 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:45:13 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:45:14 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:45:17 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# 
+# 
+# add wave clk
+# ** Error: (vish-4014) No objects found matching 'clk'.
+# Error in macro ./wave.do line 3
+# (vish-4014) No objects found matching 'clk'.
+#     while executing
+# "add wave clk"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:46:00 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:46:00 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:46:00 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:46:00 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:46:01 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave ps2_clk
+# add wave Ps2_data
+# ** Error: (vish-4014) No objects found matching 'Ps2_data'.
+# Error in macro ./wave.do line 2
+# (vish-4014) No objects found matching 'Ps2_data'.
+#     while executing
+# "add wave Ps2_data"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:46:11 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:46:11 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:46:11 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:46:12 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:46:12 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave ps2_clk
+# add wave ps2_data
+# 
+# 
+# 
+# vcd file ps2_vcd.vcd
+# vcd add -r /*
+# 
+# run -all
+# vcd flush
+# 
+# wave zoom range 0ps 150ps
+# 0 ps
+# 150 ps
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:51:39 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:51:39 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:51:39 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:51:39 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:51:40 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave ps2_clk
+# add wave ps2_data
+# 
+# 
+# 
+# vcd file ps2_vcd.vcd
+# vcd add -r /*
+# 
+# run -all
+# vcd flush
+# 
+# wave zoom range 0ps 300ps
+# 0 ps
+# 300 ps
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:54:06 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:54:06 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:54:06 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: (vlog-13069) ../testbench.sv(13): near "*": syntax error, unexpected '*'.
+# 
+# End time: 07:54:06 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 12
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:54:23 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:54:23 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:54:23 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:54:23 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:54:24 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave ps2_clk
+# add wave ps2_data
+# 
+# 
+# 
+# vcd file ps2_vcd.vcd
+# vcd add -r /*
+# 
+# run -all
+# vcd flush
+# 
+# wave zoom range 0ps 300ps
+# 0 ps
+# 300 ps
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:54:51 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:54:51 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:54:51 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:54:51 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:54:52 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave ps2_clk
+# add wave ps2_data
+# 
+# 
+# 
+# vcd file ps2_vcd.vcd
+# vcd add -r /*
+# 
+# run -all
+# vcd flush
+# 
+# wave zoom range 0ps 300ms
+# 0 ps
+# 300 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:56:07 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:56:07 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:56:07 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:56:07 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:56:08 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave ps2_clk
+# add wave ps2_data
+# 
+# 
+# 
+# vcd file ps2_vcd.vcd
+# vcd add -r /*
+# 
+# run -all
+# vcd flush
+# 
+# wave zoom range 0ps 300ns
+# 0 ps
+# 300 ns
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:56:22 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:56:22 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:56:22 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:56:22 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:56:23 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave ps2_clk
+# add wave ps2_data
+# 
+# 
+# 
+# vcd file ps2_vcd.vcd
+# vcd add -r /*
+# 
+# run -all
+# vcd flush
+# 
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:58:06 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:58:06 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:58:06 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: (vlog-13069) ../testbench.sv(21): near "end": syntax error, unexpected end.
+# 
+# End time: 07:58:06 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 12
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:58:20 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 07:58:20 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 07:58:20 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 07:58:21 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 07:58:21 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave ps2_clk
+# add wave ps2_data
+# 
+# 
+# 
+# vcd file ps2_vcd.vcd
+# vcd add -r /*
+# 
+# run -all
+# vcd flush
+# 
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:00:36 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 08:00:36 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:00:37 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:00:38 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:00:41 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave ps2_clk
+# add wave ps2_data
+# 
+# 
+# 
+# vcd file ps2_vcd.vcd
+# vcd add -r /*
+# 
+# run -all
+# vcd flush
+# 
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:01:10 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 08:01:10 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:01:10 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:01:10 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:01:11 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave ps2_clk
+# add wave ps2_data
+# 
+# 
+# 
+# vcd file ps2_vcd.vcd
+# vcd add -r /*
+# 
+# run -all
+# vcd flush
+# 
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:01:25 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# End time: 08:01:25 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:01:25 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:01:25 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:01:26 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# add wave ps2_clk
+# add wave ps2_data
+# 
+# 
+# 
+# vcd file ps2_vcd.vcd
+# vcd add -r /*
+# 
+# run -all
+# vcd flush
+# 
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:33:46 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Error (suppressible): ../ps2_keyboard.sv(10): (vlog-2388) 'data' already declared in this scope (ps2_keyboard).
+# 
+# ** Error: (vlog-13069) ../ps2_keyboard.sv(10): near "always_ff": syntax error, unexpected always_ff, expecting ';' or ','.
+# 
+# ** Error: ../ps2_keyboard.sv(14): (vlog-13205) Syntax error found in the scope following 'counter'. Is there a missing '::'?
+# 
+# End time: 08:33:49 on Jun 11,2021, Elapsed time: 0:00:03
+# Errors: 3, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}"
+
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:35:17 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Error: ../ps2_keyboard.sv(23): (vlog-2730) Undefined variable: 'parity_check'.
+# 
+# ** Error: (vlog-13069) ../ps2_keyboard.sv(26): near "end": syntax error, unexpected end.
+# 
+# End time: 08:35:21 on Jun 11,2021, Elapsed time: 0:00:04
+# Errors: 2, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:35:36 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Error: (vlog-13069) ../ps2_keyboard.sv(27): near "end": syntax error, unexpected end.
+# 
+# End time: 08:35:36 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}"
+
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:35:58 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Error: (vlog-13069) ../ps2_keyboard.sv(27): near "end": syntax error, unexpected end.
+# 
+# End time: 08:35:59 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:36:13 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Error: (vlog-13069) ../ps2_keyboard.sv(29): near "endmodule": syntax error, unexpected endmodule.
+# 
+# End time: 08:36:13 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}"
+
+
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:36:37 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Error: (vlog-13069) ../ps2_keyboard.sv(27): near "end": syntax error, unexpected end.
+# 
+# End time: 08:36:37 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:36:50 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Error: ../ps2_keyboard.sv(25): (vlog-2110) Illegal reference to net "data".
+# 
+# End time: 08:36:51 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:37:31 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:37:32 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:37:32 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: (vlog-13069) ../testbench.sv(12): near "ps2_keyboard": syntax error, unexpected IDENTIFIER, expecting ';'.
+# 
+# End time: 08:37:32 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 12
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:41:00 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:41:00 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:41:00 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: (vlog-13069) ../testbench.sv(12): near "ps2_keyboard": syntax error, unexpected IDENTIFIER, expecting ';'.
+# 
+# End time: 08:41:00 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 12
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:41:19 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:41:19 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:41:19 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: (vlog-13069) ../testbench.sv(12): near "ps2_keyboard": syntax error, unexpected IDENTIFIER, expecting ';'.
+# 
+# End time: 08:41:19 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 12
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:41:27 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:41:27 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:41:27 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: ../testbench.sv(10): In, out, or inout does not appear in port list: data.
+# End time: 08:41:27 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 12
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:41:43 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:41:44 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:41:44 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:41:44 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:41:53 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# -radix binary 
+# ** Error: invalid command name "-radix"
+# Error in macro ./wave.do line 1
+# invalid command name "-radix"
+#     while executing
+# "-radix binary "
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:42:34 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:42:36 on Jun 11,2021, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:42:36 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:42:36 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:42:46 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:50:05 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Error: (vlog-13069) ../ps2_keyboard.sv(17): near "else": syntax error, unexpected else, expecting ';'.
+# 
+# End time: 08:50:06 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:50:16 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:50:20 on Jun 11,2021, Elapsed time: 0:00:04
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:50:20 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:50:21 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:50:25 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:51:13 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:51:13 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:51:13 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:51:13 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:51:15 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+add wave -position end  sim:/testbench/ps2_keyboard_i0/counter
+add wave -position end  sim:/testbench/ps2_keyboard_i0/counter
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:52:01 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:52:01 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:52:01 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:52:01 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:52:02 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# add wave ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:52:37 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:52:37 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:52:37 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:52:37 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:52:38 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:53:04 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:53:04 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:53:04 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:53:05 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:53:05 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:53:43 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:53:43 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:53:43 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:53:43 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:53:44 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# add wave -radix decimal ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:54:14 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:54:20 on Jun 11,2021, Elapsed time: 0:00:06
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:54:20 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:54:21 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:54:22 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# add wave -radix decimal ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:56:08 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:56:08 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:56:09 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:56:09 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:56:10 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# add wave ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:56:43 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:56:43 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:56:43 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:56:43 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:56:44 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# add wave ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:57:28 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:57:29 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:57:29 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:57:29 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:57:30 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# add wave ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:58:09 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:58:10 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:58:10 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:58:10 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:58:12 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# add wave ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:58:42 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:58:42 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:58:42 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:58:42 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:58:44 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# add wave ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:59:23 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 08:59:23 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 08:59:23 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 08:59:23 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 08:59:25 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# add wave ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:00:19 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Warning: ../ps2_keyboard.sv(17): (vlog-2697) MSB of part-select into 'data_reg' is out of bounds.
+# 
+# ** Warning: ../ps2_keyboard.sv(21): (vlog-2697) MSB of part-select into 'data_reg' is out of bounds.
+# 
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 09:00:20 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:00:20 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:00:20 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 09:00:21 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# add wave ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:09:47 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Warning: ../ps2_keyboard.sv(17): (vlog-2697) MSB of part-select into 'data_reg' is out of bounds.
+# 
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 09:09:52 on Jun 11,2021, Elapsed time: 0:00:05
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:09:53 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:09:53 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 09:09:57 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# add wave ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:10:49 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Warning: ../ps2_keyboard.sv(17): (vlog-2697) MSB of part-select into 'data_reg' is out of bounds.
+# 
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 09:10:49 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:10:49 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:10:49 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 09:10:51 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave data
+# add wave -radix hex ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:11:29 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Warning: ../ps2_keyboard.sv(17): (vlog-2697) MSB of part-select into 'data_reg' is out of bounds.
+# 
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 09:11:29 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:11:30 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:11:30 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 09:11:31 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave -radix hex data
+# add wave ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:26:42 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Warning: ../ps2_keyboard.sv(17): (vlog-2697) MSB of part-select into 'data_reg' is out of bounds.
+# 
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 09:26:42 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:26:42 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:26:43 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 09:26:48 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave -radix hex data
+# add wave ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:29:33 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Warning: ../ps2_keyboard.sv(17): (vlog-2697) MSB of part-select into 'data_reg' is out of bounds.
+# 
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 09:29:33 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:29:33 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:29:34 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 09:29:39 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave -radix hex data
+# add wave ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:34:05 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Warning: ../ps2_keyboard.sv(17): (vlog-2697) MSB of part-select into 'data_reg' is out of bounds.
+# 
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 09:34:05 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:34:05 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:34:07 on Jun 11,2021, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 09:34:10 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave -radix hex data
+# 
+# add divider
+# ** Error: bad option "divider": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+# Error in macro ./wave.do line 7
+# ** Error: bad option "divider": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+#     while executing
+# "error $msg"
+#     (procedure "::add::_unknown_" line 21)
+#     invoked from within
+# "::add::_unknown_ ::add divider"
+#     (ensemble unknown subcommand handler)
+#     invoked from within
+# "add divider"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:36:00 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Warning: ../ps2_keyboard.sv(17): (vlog-2697) MSB of part-select into 'data_reg' is out of bounds.
+# 
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 09:36:00 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:36:00 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:36:01 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 09:36:07 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave -radix hex data
+# 
+# add wave -divider
+# 
+# add wave ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# add wave ps2_keyboard_i0/parity_checker
+# ** Error: (vish-4014) No objects found matching 'ps2_keyboard_i0/parity_checker'.
+# Error in macro ./wave.do line 11
+# (vish-4014) No objects found matching 'ps2_keyboard_i0/parity_checker'.
+#     while executing
+# "add wave ps2_keyboard_i0/parity_checker"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:36:37 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Warning: ../ps2_keyboard.sv(17): (vlog-2697) MSB of part-select into 'data_reg' is out of bounds.
+# 
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 09:36:38 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:36:38 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:36:38 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 09:36:40 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave -radix hex data
+# 
+# add wave -divider
+# 
+# add wave ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# add wave ps2_keyboard_i0/parity_check
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:40:45 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Warning: ../ps2_keyboard.sv(17): (vlog-2697) MSB of part-select into 'data_reg' is out of bounds.
+# 
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 09:40:45 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:40:45 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:40:46 on Jun 11,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim 
+# Start time: 09:40:49 on Jun 11,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.ps2_keyboard
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave ps2_clk
+# add wave -literal ps2_data
+# add wave -radix hex data
+# 
+# add wave -divider
+# 
+# add wave ps2_keyboard_i0/data_reg
+# add wave -radix decimal ps2_keyboard_i0/counter
+# add wave ps2_keyboard_i0/parity_check
+# 
+# 
+# run -all
+# wave zoom range 0ps 3ms
+# 0 ps
+# 3 ms
+# 

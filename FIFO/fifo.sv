@@ -13,6 +13,4 @@ module fifo #(parameter SIZE = 8; parameter DEPTH = 4)(
         overflow
     );
 
-
-
 endmodule;
