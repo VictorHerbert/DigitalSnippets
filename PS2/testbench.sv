@@ -6,7 +6,7 @@ module testbench;
     parameter CLK_HALF_PERIOD = CLK_PERIOD/2;
 
     logic ps2_clk, ps2_data;
-    logic[0:10] ps2_data_parallel = {1'b0, 8'hA2, 2'b11};
+    logic[0:10] ps2_data_parallel = {1'b0, 8'hA2, 2'b01};
     logic[7:0] data;
 
     ps2_keyboard ps2_keyboard_i0(

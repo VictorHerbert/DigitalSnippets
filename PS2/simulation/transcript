@@ -3266,3 +3266,41 @@ do custom_run.do
 # 0 ps
 # 3 ms
 # 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:42:25 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# -- Compiling module ps2_keyboard
+# ** Warning: ../ps2_keyboard.sv(17): (vlog-2697) MSB of part-select into 'data_reg' is out of bounds.
+# 
+# 
+# Top level modules:
+# 	ps2_keyboard
+# End time: 09:42:25 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 09:42:25 on Jun 11,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 09:42:25 on Jun 11,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
