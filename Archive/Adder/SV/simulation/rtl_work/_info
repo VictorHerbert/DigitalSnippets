@@ -1,0 +1,91 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/victo/Desktop/Cadence/simulation
+vFullAdder
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1629270311
+!i10b 1
+!s100 9O>54R^[VzhCe>6<fEhM`2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IjDK^SSZ5CnO?dTm<HP_f^3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+w1629266498
+8../full_adder.sv
+F../full_adder.sv
+!i122 1
+L0 1 11
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1629270311.000000
+!s107 ../full_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+../src|../full_adder.sv|
+!i113 1
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+../src
+Z8 tCvgOpt 0
+n@full@adder
+vRippleAdder
+R1
+!s110 1629270310
+!i10b 1
+!s100 mjQK;RTUo89F>:;H>PD0P1
+R2
+IFeEfNLzPYClJT_d8dYUI52
+R3
+S1
+R0
+w1629270260
+8../ripple_adder.sv
+F../ripple_adder.sv
+!i122 0
+L0 1 33
+R4
+r1
+!s85 0
+31
+!s108 1629270310.000000
+!s107 ../ripple_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+../src|../ripple_adder.sv|
+!i113 1
+R6
+R7
+R8
+n@ripple@adder
+vtestbench
+R1
+!s110 1629270312
+!i10b 1
+!s100 RVDB;P3@LbYSJnSDV=G1j3
+R2
+IiO@OZ?iGCCQ5_?Y1TgnU40
+R3
+S1
+R0
+w1629269543
+8../testbench.sv
+F../testbench.sv
+!i122 2
+L0 1 32
+R4
+r1
+!s85 0
+31
+R5
+!s107 ../testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+../src|../testbench.sv|
+!i113 1
+R6
+R7
+R8

@@ -1,0 +1,957 @@
+# Reading pref.tcl
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:50 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(28): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(28): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 00:54:53 on Aug 14,2021, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:53 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:54:54 on Aug 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 00:55:01 on Aug 14,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.Serializer
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave clk
+# add wave -color yellow write_enable
+# add wave -color purple data_in
+# 
+# add wave -divider
+# 
+# add wave ready
+# add wave -literal serial_data_out
+# 
+# run -all
+# wave zoom range 0ns 10ns
+# 0 ps
+# 10 ns
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:57:03 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(28): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(28): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 00:57:04 on Aug 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:57:04 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# ** Error: (vlog-13069) ../testbench.sv(1): near "'": syntax error, unexpected '\'', expecting class.
+# End time: 00:57:04 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./custom_run.do line 12
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:57:18 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(28): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(28): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 00:57:18 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:57:18 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# ** Error: ../testbench.sv(1): Error in `timescale directive.  <time_precision> must be at least as precise as <time_unit>.
+# -- Compiling module testbench
+# ** Error: ../testbench.sv(33): Error in timescale or timeprecision statement.  <timeprecision> must be at least as precise as <timeunit>.
+# End time: 00:57:19 on Aug 14,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./custom_run.do line 12
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:57:32 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(28): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(28): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 00:57:32 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:57:32 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 00:57:32 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 00:57:36 on Aug 14,2021, Elapsed time: 0:02:35
+# Errors: 2, Warnings: 0
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 00:57:36 on Aug 14,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.Serializer
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave clk
+# add wave -color yellow write_enable
+# add wave -color purple data_in
+# 
+# add wave -divider
+# 
+# add wave ready
+# add wave -literal serial_data_out
+# 
+# run -all
+# wave zoom range 0ns 50ns
+# 0 ps
+# 50 ns
+# 
+
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:04:56 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(28): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(28): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 01:04:57 on Aug 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:04:57 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:04:57 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 01:04:59 on Aug 14,2021, Elapsed time: 0:07:23
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 01:05:01 on Aug 14,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.Serializer
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave clk
+# add wave -color yellow write_enable
+# add wave -color purple data_in
+# 
+# add wave -divider
+# 
+# add wave ready
+# add wave -literal serial_data_out
+# 
+# run -all
+# wave zoom range 0ns 50ns
+# 0 ps
+# 50 ns
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:08:44 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(28): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(28): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 01:08:44 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:08:44 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# ** Error: ../testbench.sv(1): Error in `timescale directive.  <time_precision> must be at least as precise as <time_unit>.
+# -- Compiling module testbench
+# ** Error: ../testbench.sv(33): Error in timescale or timeprecision statement.  <timeprecision> must be at least as precise as <timeunit>.
+# End time: 01:08:45 on Aug 14,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./custom_run.do line 12
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:08:52 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(28): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(28): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 01:08:52 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:08:52 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:08:52 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 01:08:53 on Aug 14,2021, Elapsed time: 0:03:52
+# Errors: 1, Warnings: 0
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 01:08:54 on Aug 14,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.Serializer
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave clk
+# add wave -color yellow write_enable
+# add wave -color purple data_in
+# 
+# add wave -divider
+# 
+# add wave ready
+# add wave -literal serial_data_out
+# 
+# run -all
+# wave zoom range 0ns 50ns
+# 0 ps
+# 50 ns
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:12:02 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(28): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(28): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 01:12:02 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:12:02 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: (vlog-13069) ../testbench.sv(31): near "end": syntax error, unexpected end, expecting ';'.
+# End time: 01:12:03 on Aug 14,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./custom_run.do line 12
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:12:09 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(28): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(28): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 01:12:10 on Aug 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:12:10 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:12:10 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 01:12:11 on Aug 14,2021, Elapsed time: 0:03:17
+# Errors: 1, Warnings: 0
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 01:12:13 on Aug 14,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.Serializer
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave clk
+# add wave -color yellow write_enable
+# add wave -color purple data_in
+# 
+# add wave -divider
+# 
+# add wave ready
+# add wave -literal serial_data_out
+# 
+# run -all
+# wave zoom range 0ns 50ns
+# 0 ps
+# 50 ns
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:19:17 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Error: (vlog-13069) ../serializer.sv(15): near "always_ff": syntax error, unexpected "SystemVerilog keyword 'always_ff'", expecting ';' or ','.
+# ** Error: ../serializer.sv(18): (vlog-13205) Syntax error found in the scope following 'counter'. Is there a missing '::'?
+# End time: 01:19:17 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./custom_run.do line 11
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../serializer.sv}"
+
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:19:48 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(29): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(29): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 01:19:49 on Aug 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:19:49 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:19:49 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 01:19:50 on Aug 14,2021, Elapsed time: 0:07:37
+# Errors: 1, Warnings: 0
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 01:19:52 on Aug 14,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.Serializer
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave clk
+# add wave -color yellow write_enable
+# add wave -color purple data_in
+# 
+# add wave -divider
+# 
+# add wave ready
+# add wave -literal serial_data_out
+# 
+# run -all
+# wave zoom range 0ns 50ns
+# 0 ps
+# 50 ns
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:30:02 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(29): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(29): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 01:30:03 on Aug 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:30:03 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:30:03 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 01:30:07 on Aug 14,2021, Elapsed time: 0:10:15
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 01:30:08 on Aug 14,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.Serializer
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave clk
+# add wave -color yellow write_enable
+# add wave -color purple data_in
+# 
+# add wave -divider
+# 
+# add wave ready
+# add wave -literal serial_data_out
+# 
+# run -all
+# wave zoom range 0ns 50ns
+# 0 ps
+# 50 ns
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:30:28 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(29): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(29): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 01:30:28 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:30:28 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:30:28 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 01:30:30 on Aug 14,2021, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 01:30:30 on Aug 14,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.Serializer
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave clk
+# add wave -color yellow write_enable
+# add wave -color purple data_in
+# 
+# add wave -divider
+# 
+# add wave ready
+# add wave -literal serial_data_out
+# 
+# run -all
+# wave zoom range 0ns 500ns
+# 0 ps
+# 500 ns
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:53 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(30): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(30): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 01:35:53 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:35:53 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:35:54 on Aug 14,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 01:35:54 on Aug 14,2021, Elapsed time: 0:05:24
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 01:35:55 on Aug 14,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.Serializer
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave clk
+# add wave -color yellow write_enable
+# add wave -color purple data_in
+# 
+# add wave -divider
+# 
+# add wave ready
+# add wave -literal serial_data_out
+# 
+# run -all
+# wave zoom range 0ns 100ns
+# 0 ps
+# 100 ns
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:36:24 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(29): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(29): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 01:36:24 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:36:24 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:36:24 on Aug 14,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 01:36:27 on Aug 14,2021, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 01:36:27 on Aug 14,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.Serializer
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave clk
+# add wave -color yellow write_enable
+# add wave -color purple data_in
+# 
+# add wave -divider
+# 
+# add wave ready
+# add wave -literal serial_data_out
+# 
+# run -all
+# wave zoom range 0ns 100ns
+# 0 ps
+# 100 ns
+# 
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../serializer.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:48:23 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../serializer.sv 
+# -- Compiling module Serializer
+# ** Warning: ../serializer.sv(29): (vlog-2283) Extra semicolon in $unit (global) scope.
+# ** Warning: ../serializer.sv(29): (vlog-2284) Empty $unit scope found.
+# -- Compiling package serializer_sv_unit
+# 
+# Top level modules:
+# 	Serializer
+# End time: 01:48:26 on Aug 14,2021, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 2
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 01:48:28 on Aug 14,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 01:48:30 on Aug 14,2021, Elapsed time: 0:00:02
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 01:48:44 on Aug 14,2021, Elapsed time: 0:12:17
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 01:48:48 on Aug 14,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.Serializer
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary 
+# binary
+# 
+# add wave clk
+# add wave -color yellow write_enable
+# add wave -color purple data_in
+# 
+# add wave -divider
+# 
+# add wave ready
+# add wave -literal serial_data_out
+# 
+# run -all
+# wave zoom range 0ns 100ns
+# 0 ps
+# 100 ns
+# 
+# End time: 02:33:20 on Aug 14,2021, Elapsed time: 0:44:32
+# Errors: 0, Warnings: 0

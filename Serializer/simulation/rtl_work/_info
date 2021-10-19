@@ -1,0 +1,92 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/victo/Desktop/Git/DigitalSnippets/Serializer/simulation
+vSerializer
+!s105 serializer_sv_unit
+DXx4 work 18 serializer_sv_unit 0 22 mRDKM:h@A[7a3>1UdX]h61
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1628916506
+!i10b 1
+!s100 liBKK>9zE?labQX59Gn`12
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IMHbLh`?U_=9ToQai7JzHP0
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1628915777
+Z6 8../serializer.sv
+Z7 F../serializer.sv
+!i122 0
+L0 1 29
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1628916503.000000
+Z10 !s107 ../serializer.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+../src|../serializer.sv|
+!i113 1
+Z12 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z13 !s92 -sv -work work +incdir+../src -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 tCvgOpt 0
+n@serializer
+Xserializer_sv_unit
+R1
+R2
+VmRDKM:h@A[7a3>1UdX]h61
+r1
+!s85 0
+!i10b 1
+!s100 >S__ZVW363=o6bj67MN_M1
+ImRDKM:h@A[7a3>1UdX]h61
+!i103 1
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 29 0
+R8
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vtestbench
+R1
+!s110 1628916510
+!i10b 1
+!s100 ge5<zeS^[YQXP5X;j5K`h1
+R3
+IY7G7[zWNNN:GLJeFR@INf3
+R4
+S1
+R0
+w1628916476
+8../testbench.sv
+F../testbench.sv
+!i122 1
+L0 3 35
+R8
+r1
+!s85 0
+31
+!s108 1628916508.000000
+!s107 ../testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+../src|../testbench.sv|
+!i113 1
+R12
+R13
+R14

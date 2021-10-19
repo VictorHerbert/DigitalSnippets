@@ -1,4 +1,4 @@
-module clk_div #(parameter IN_FREQ, parameter OUT_FREQ)(
+module clk_div #(parameter IN_FREQ = 50_000_000, parameter OUT_FREQ = 5_000)(
     input clk_in,
     output clk_out
 );
@@ -10,7 +10,7 @@ module clk_div #(parameter IN_FREQ, parameter OUT_FREQ)(
     assign clk_out = _clk_out;
 
     always_ff @( posedge clk_in ) begin
-        if(counter < COUNTER_THR) // Check later
+        if(counter < COUNTER_THR)
             counter <= counter + 1;
         else begin
             counter <= 0;

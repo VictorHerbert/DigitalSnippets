@@ -1,0 +1,2701 @@
+# Reading pref.tcl
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:10:24 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:10:24 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:10:24 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:10:24 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:10:24 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:10:25 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:10:25 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# ** Note: $finish    : ../testbench.sv(11)
+#    Time: 1 ns  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at ../testbench.sv line 11
+# wave zoom range 0ns 10ns
+# 0 ns
+# 10 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/victo/Desktop/Cadence/simulation/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/victo/Desktop/Cadence/simulation/rtl_work".
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:11:11 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:11:11 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:11:11 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:11:11 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:11:11 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: (vlog-13069) ../testbench.sv(10): near "]": syntax error, unexpected ']'.
+# End time: 03:11:12 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./custom_run.do line 13
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/victo/Desktop/Cadence/simulation/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Users/victo/Desktop/Cadence/simulation/rtl_work".
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:12:10 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:12:10 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:12:10 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:12:10 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:12:10 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:12:10 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:12:11 on Aug 18,2021, Elapsed time: 0:01:46
+# Errors: 1, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:12:11 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# ** Note: $finish    : ../testbench.sv(12)
+#    Time: 101 ns  Iteration: 0  Instance: /testbench
+# 1
+# Break in Module testbench at ../testbench.sv line 12
+# wave zoom range 0ns 10ns
+# 0 ns
+# 10 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:13:30 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:13:31 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:13:31 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:13:31 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:13:31 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: ../testbench.sv(12): break statements only allowed within loops.
+# End time: 03:13:31 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./custom_run.do line 13
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:15:03 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:15:03 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:15:03 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:15:04 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:15:04 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:15:04 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:15:06 on Aug 18,2021, Elapsed time: 0:02:55
+# Errors: 1, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:15:06 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# ** Note: $stop    : ../testbench.sv(12)
+#    Time: 101 ns  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../testbench.sv line 12
+# wave zoom range 0ns 10ns
+# 0 ns
+# 10 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:15:27 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:15:27 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:15:27 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:15:27 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:15:27 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:15:27 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:15:29 on Aug 18,2021, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:15:29 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# ** Note: $stop    : ../testbench.sv(12)
+#    Time: 101 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../testbench.sv line 12
+# wave zoom range 0ns 10ns
+# 0 ps
+# 10 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:16:39 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:16:39 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:16:40 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:16:40 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:16:40 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: (vlog-13069) ../testbench.sv(8): near "repeat": syntax error, unexpected repeat.
+# End time: 03:16:40 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./custom_run.do line 13
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:17:17 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:17:17 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:17:18 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:17:18 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:17:18 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:17:18 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:17:20 on Aug 18,2021, Elapsed time: 0:01:51
+# Errors: 1, Warnings: 0
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:17:20 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# ** Note: $stop    : ../testbench.sv(15)
+#    Time: 601 ps  Iteration: 0  Instance: /testbench
+# Break in Module testbench at ../testbench.sv line 15
+# wave zoom range 0ns 10ns
+# 0 ps
+# 10 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:18:44 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:18:44 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:18:44 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:18:44 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:18:45 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:18:45 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:18:46 on Aug 18,2021, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:18:46 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 10ns
+# 0 ps
+# 10 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:19:59 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:19:59 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:19:59 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:19:59 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:19:59 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:19:59 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ps -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:20:01 on Aug 18,2021, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 0
+# vsim -t 1ps -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:20:01 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 10ns
+# 0 ps
+# 10 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/victo/Desktop/Cadence/simulation/rtl_work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/victo/Desktop/Cadence/simulation/rtl_work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/victo/Desktop/Cadence/simulation/rtl_work".
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:20:26 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:20:26 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:20:26 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:20:26 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:20:26 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:20:26 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:20:28 on Aug 18,2021, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:20:28 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 10ns
+# 0 ns
+# 10 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/victo/Desktop/Cadence/simulation/rtl_work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/victo/Desktop/Cadence/simulation/rtl_work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/victo/Desktop/Cadence/simulation/rtl_work".
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:26:56 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:26:57 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:26:57 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:26:57 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:26:57 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: (vlog-13069) ../testbench.sv(19): near "end": syntax error, unexpected end, expecting ';'.
+# End time: 03:26:57 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./custom_run.do line 13
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Users/victo/Desktop/Cadence/simulation/rtl_work/_lib1_0.qpg".
+# Error 31: Unable to unlink file "C:/Users/victo/Desktop/Cadence/simulation/rtl_work/_lib1_0.qtl".
+# Error 133: Unable to remove directory "C:/Users/victo/Desktop/Cadence/simulation/rtl_work".
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:27:06 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:27:06 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:27:06 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:27:06 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:27:06 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:27:06 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:27:08 on Aug 18,2021, Elapsed time: 0:06:40
+# Errors: 1, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:27:08 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 10ns
+# 0 ns
+# 10 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:27:21 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:27:21 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:27:21 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:27:21 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:27:21 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: (vlog-13069) ../testbench.sv(17): near "or": syntax error, unexpected or.
+# End time: 03:27:21 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./custom_run.do line 13
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:27:34 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:27:34 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:27:34 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:27:34 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:27:34 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:27:34 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:27:36 on Aug 18,2021, Elapsed time: 0:00:28
+# Errors: 1, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:27:36 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 10ns
+# 0 ns
+# 10 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:28:22 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:28:22 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:28:22 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:28:22 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:28:22 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:28:22 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:28:24 on Aug 18,2021, Elapsed time: 0:00:48
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:28:24 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 10ns
+# 0 ns
+# 10 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:29:18 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:29:18 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:29:18 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:29:18 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:29:18 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:29:18 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:29:19 on Aug 18,2021, Elapsed time: 0:00:55
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:29:19 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 10ns
+# 0 ns
+# 10 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:29:40 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:29:40 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:29:40 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:29:40 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:29:40 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:29:41 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:29:41 on Aug 18,2021, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:29:41 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 10000ns
+# 0 ns
+# 10 us
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:29:52 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:29:52 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:29:52 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:29:52 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:29:52 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:29:52 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:29:54 on Aug 18,2021, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:29:54 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 100ns
+# 0 ns
+# 100 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:30:34 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:30:34 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:30:34 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:30:34 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:30:34 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:30:35 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:30:36 on Aug 18,2021, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:30:36 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 100ns
+# 0 ns
+# 100 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:30:56 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:30:56 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:30:56 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:30:57 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:30:57 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:30:57 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:30:58 on Aug 18,2021, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:30:58 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 100ns
+# 0 ns
+# 100 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:31:55 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:31:55 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:31:55 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:31:55 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:31:56 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:31:56 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:31:57 on Aug 18,2021, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:31:57 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:32:30 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:32:30 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:32:31 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:32:31 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:32:31 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:32:31 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:32:32 on Aug 18,2021, Elapsed time: 0:00:35
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:32:32 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:32:44 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:32:44 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:32:44 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:32:44 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:32:44 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:32:44 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:32:46 on Aug 18,2021, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:32:46 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:33:17 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:33:18 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:33:18 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:33:18 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:33:18 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:33:18 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:33:19 on Aug 18,2021, Elapsed time: 0:00:33
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:33:20 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# 
+# add wave -divider
+# 
+# 
+# run -all;
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:37:02 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:37:02 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:37:02 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:37:02 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:37:02 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: ../testbench.sv(14): 'carry_out' is not a function name.
+# ** Error: ../testbench.sv(14): Component name 'carry_out' does not refer to a scope.
+# ** Error: ../testbench.sv(14): 'c' is not a function name.
+# ** Error (suppressible): (vlog-13276) ../testbench.sv(14): Could not find field/method name ($$) in 'c' of 'c.$$'.
+# ** Error: ../testbench.sv(13): 'carry_in' is not a function name.
+# ** Error: ../testbench.sv(13): Component name 'carry_in' does not refer to a scope.
+# ** Error: ../testbench.sv(13): 'b' is not a function name.
+# ** Error (suppressible): (vlog-13276) ../testbench.sv(13): Could not find field/method name ($$) in 'b' of 'b.$$'.
+# ** Error: ../testbench.sv(13): 'a' is not a function name.
+# ** Error (suppressible): (vlog-13276) ../testbench.sv(13): Could not find field/method name ($$) in 'a' of 'a.$$'.
+# ** Error: ../testbench.sv(12): External function 'SIZE' may not be used in a constant expression.
+# ** Error: ../testbench.sv(12): An expression for a parameter actual for the module instance ('ripple_adder') is not constant.  Parameter expressions must be constant.
+# End time: 03:37:02 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./custom_run.do line 13
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:37:23 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:37:24 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:37:24 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:37:24 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:37:24 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# ** Error: ../testbench.sv(12): External function 'SIZE' may not be used in a constant expression.
+# ** Error: ../testbench.sv(12): An expression for a parameter actual for the module instance ('ripple_adder') is not constant.  Parameter expressions must be constant.
+# End time: 03:37:24 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./custom_run.do line 13
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../testbench.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:37:36 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:37:36 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:37:36 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:37:36 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:37:37 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:37:37 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:37:38 on Aug 18,2021, Elapsed time: 0:04:18
+# Errors: 2, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:37:38 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RippleAdder
+# Loading work.FullAdder
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# add wave rst
+# ** UI-Msg: (vish-4014) No objects found matching 'rst'.
+# Error in macro ./wave.do line 4
+# ** UI-Msg: (vish-4014) No objects found matching 'rst'.
+#     while executing
+# "add wave rst"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:37:57 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:37:57 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:37:57 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:37:58 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:37:58 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:37:58 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:37:59 on Aug 18,2021, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:37:59 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RippleAdder
+# Loading work.FullAdder
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# 
+# add wave -divider
+# 
+# 
+# add wave -color blue a
+# add wave -color blue b
+# add wave -color yellow c
+# 
+# 
+# 
+# run -all;
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:38:50 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:38:50 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:38:50 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:38:50 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:38:50 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:38:51 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:38:52 on Aug 18,2021, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:38:52 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RippleAdder
+# Loading work.FullAdder
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# 
+# add wave -divider
+# 
+# 
+# add wave -color -unsigned blue a
+# ** UI-Msg: (vish-4014) No objects found matching 'blue'.
+# Item configuration error:
+# unknown color name "-unsigned"
+# Error in macro ./wave.do line 8
+# ** UI-Msg: (vish-4014) No objects found matching 'blue'.
+# Item configuration error:
+# unknown color name "-unsigned"
+#     while executing
+# "add wave -color -unsigned blue a"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:39:11 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:39:11 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:39:11 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:39:11 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:39:11 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:39:12 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:39:12 on Aug 18,2021, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:39:12 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RippleAdder
+# Loading work.FullAdder
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# 
+# add wave -divider
+# 
+# 
+# add wave -color blue -unsigned  a
+# add wave -color blue -unsigned  b
+# add wave -color yellow -unsigned  c
+# 
+# 
+# 
+# run -all;
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:44:06 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:44:06 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:44:07 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:44:07 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:44:07 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:44:07 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:44:08 on Aug 18,2021, Elapsed time: 0:04:56
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:44:09 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RippleAdder
+# Loading work.FullAdder
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# 
+# add wave -divider
+# 
+# 
+# add wave -color blue -unsigned  a
+# add wave -color blue -unsigned  b
+# add wave -color yellow -unsigned c
+# 
+# 
+# 
+# run -all;
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:45:17 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:45:17 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:45:17 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:45:17 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:45:17 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:45:18 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:45:19 on Aug 18,2021, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:45:19 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RippleAdder
+# Loading work.FullAdder
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# 
+# add wave -divider
+# 
+# 
+# add wave -color Orange -unsigned  a
+# add wave -color "Green Yellow" -unsigned  b
+# add wave -color Yellow -unsigned c
+# 
+# 
+# 
+# run -all;
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:45:49 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:45:49 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:45:49 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:45:49 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:45:49 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:45:49 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:45:51 on Aug 18,2021, Elapsed time: 0:00:32
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:45:51 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RippleAdder
+# Loading work.FullAdder
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# 
+# add wave -divider
+# 
+# 
+# add wave -color Orange -decimal  a
+# add wave -color "Green Yellow" -decimal  b
+# add wave -color Yellow -decimal c
+# 
+# 
+# 
+# run -all;
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:52:41 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# ** Error: (vlog-13069) ../ripple_adder.sv(33): near ">=": syntax error, unexpected >=.
+# ** Error: ../ripple_adder.sv(33): (vlog-13205) Syntax error found in the scope following 'a'. Is there a missing '::'?
+# End time: 03:52:41 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./custom_run.do line 11
+# C:/intelFPGA/20.1/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../ripple_adder.sv}"
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:52:56 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 03:52:56 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:52:56 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 03:52:56 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 03:52:57 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 03:52:57 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 03:52:58 on Aug 18,2021, Elapsed time: 0:07:07
+# Errors: 1, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 03:52:58 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RippleAdder
+# Loading work.FullAdder
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# 
+# add wave -divider
+# 
+# 
+# add wave -color Orange -decimal  a
+# add wave -color "Green Yellow" -decimal  b
+# add wave -color Yellow -decimal c
+# 
+# add wave -color Purple -literal c
+# 
+# 
+# 
+# run -all;
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:04:37 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 04:04:38 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:04:38 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 04:04:38 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:04:38 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 04:04:39 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 04:04:42 on Aug 18,2021, Elapsed time: 0:11:44
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 04:04:43 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RippleAdder
+# Loading work.FullAdder
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# 
+# add wave -divider
+# 
+# 
+# add wave -color Orange -decimal  a
+# add wave -color "Green Yellow" -decimal  b
+# add wave -color Yellow -decimal c
+# 
+# add wave -color Purple -literal c
+# 
+# 
+# 
+# run -all;
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:04:52 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 04:04:53 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:04:53 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 04:04:53 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:04:54 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 04:04:54 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 04:04:54 on Aug 18,2021, Elapsed time: 0:00:11
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 04:04:55 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RippleAdder
+# Loading work.FullAdder
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# 
+# add wave -divider
+# 
+# 
+# add wave -color Orange -decimal  a
+# add wave -color "Green Yellow" -decimal  b
+# add wave -color Yellow -decimal c
+# 
+# add wave -color Purple -literal overflow
+# 
+# 
+# 
+# run -all;
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ripple_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:05:10 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ripple_adder.sv 
+# -- Compiling module RippleAdder
+# 
+# Top level modules:
+# 	RippleAdder
+# End time: 04:05:10 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../full_adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:05:11 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../full_adder.sv 
+# -- Compiling module FullAdder
+# 
+# Top level modules:
+# 	FullAdder
+# End time: 04:05:11 on Aug 18,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+../src {../testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 04:05:11 on Aug 18,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 04:05:12 on Aug 18,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+# 
+# vsim -t 1ns -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 04:05:14 on Aug 18,2021, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
+# vsim -t 1ns -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 04:05:16 on Aug 18,2021
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.RippleAdder
+# Loading work.FullAdder
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# 
+# do wave.do
+# radix binary
+# binary
+# 
+# add wave clk
+# 
+# add wave -divider
+# 
+# 
+# add wave -color Orange -decimal  a
+# add wave -color "Green Yellow" -decimal  b
+# add wave -color Yellow -decimal c
+# 
+# add wave -color Pink overflow
+# 
+# 
+# 
+# run -all;
+# wave zoom range 0ns 300ns
+# 0 ns
+# 300 ns
+# End time: 04:06:50 on Aug 18,2021, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 0

@@ -1,0 +1,32 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+cd simulation
+do custom_run.do
+# 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# 
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.4a Lib Mapping Utility 2015.03 Apr  7 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/Modeltech_pe_edu_10.4a/win32pe_edu/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# 
+# vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}
+# Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+# Start time: 00:46:10 on Aug 10,2021
+# vlog -reportprogress 300 -sv -work work "+incdir+../src" ../ps2_keyboard.sv 
+# ** Error: (vlog-7) Failed to open design unit file "../ps2_keyboard.sv" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# End time: 00:46:11 on Aug 10,2021, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 0
+# ** Error: C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+# Error in macro ./custom_run.do line 11
+# C:/Modeltech_pe_edu_10.4a/win32pe_edu/vlog failed.
+#     while executing
+# "vlog -sv -work work +incdir+../src {../ps2_keyboard.sv}"
